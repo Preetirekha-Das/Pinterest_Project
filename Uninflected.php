@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\Inflector\Rules\NorwegianBokmal;
+namespace Doctrine\Inflector\Rules\Turkish;
 
 use Doctrine\Inflector\Rules\Pattern;
 
@@ -23,8 +23,8 @@ final class Uninflected
     /** @return Pattern[] */
     private static function getDefault(): iterable
     {
-        yield new Pattern('barn');
-        yield new Pattern('fjell');
-        yield new Pattern('hus');
+        yield new Pattern('lunes');
+        yield new Pattern('rompecabezas');
+        yield new Pattern('crisis');
     }
 }
